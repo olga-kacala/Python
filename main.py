@@ -119,10 +119,25 @@
 
 # print(hobby[2][1])
 
-student = ("Olga", 35, "femle")
+# student = ("Olga", 35, "femle")
+# # print(student.count('Olga'))
+# # print(student.index('Olga'))
+# for i in student:
+#     if i =="Olga":
+#         print("Hello Oldzia!")
 
-# print(student.count('Olga'))
-# print(student.index('Olga'))
-for i in student:
-    if i =="Olga":
-        print("Hello Oldzia!")
+# zastawa = {'nóz', 'widelec'}
+# kuchnia = {'blat', 'widelec'}
+
+# print(zastawa.intersection(kuchnia))
+
+
+capitals = {
+    'Poland' : 'Warszawa',
+    'Germany' : 'Berlin'
+}
+
+# print(capitals.get('Poland'))
+
+for key,values in capitals.items():
+    print(values)

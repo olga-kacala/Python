@@ -1,2 +1,1 @@
-
-#     for j in range(columns):
+print(capitals.get('Poland'))
