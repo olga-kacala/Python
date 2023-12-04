@@ -89,11 +89,40 @@
 #     time.sleep(2)
 # print("Happy new year!")
 
-rows = int(input("Enter rows: "))
-columns = int(input("Enter columns: "))
-symbol= input("Enter symbol: ")
+# rows = int(input("Enter rows: "))
+# columns = int(input("Enter columns: "))
+# symbol= input("Enter symbol: ")
 
-for i in range(rows):
-    for j in range(columns):
-        print(symbol, end="")
-    print()
+# for i in range(rows):
+#     for j in range(columns):
+#         print(symbol, end="")
+#     print()
+
+# while True:
+#     name = input("Enter your name: ")
+#     if name !="":
+#         break
+# print("hello " + name)
+
+# tel = '123-456-789'
+
+# for i in tel:
+#     if i =='-':
+#         continue
+#     print(i, end="")
+
+# drinks = ['coffe', 'tea']
+# meals = ['pizza', 'hotdog']
+# cars= ['md', 'wv']
+
+# hobby = [drinks, meals, cars]
+
+# print(hobby[2][1])
+
+student = ("Olga", 35, "femle")
+
+# print(student.count('Olga'))
+# print(student.index('Olga'))
+for i in student:
+    if i =="Olga":
+        print("Hello Oldzia!")
