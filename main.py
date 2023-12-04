@@ -78,8 +78,22 @@
 #     print("It is too cold")
 # else: print("It is too hot")
 
-name = None
+# name = None
+# while not name:
+#     name = input("Enter your name")
+# print("Hello " + name)
 
-while not name:
-    name = input("Enter your name")
-print("Hello " + name)
+# import time
+# for i in range(10,0,-1):
+#     print(i)
+#     time.sleep(2)
+# print("Happy new year!")
+
+rows = int(input("Enter rows: "))
+columns = int(input("Enter columns: "))
+symbol= input("Enter symbol: ")
+
+for i in range(rows):
+    for j in range(columns):
+        print(symbol, end="")
+    print()
