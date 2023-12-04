@@ -70,10 +70,16 @@
 #         print(symbol, end="")
 #     print()
 
-temp=int(input("What is the temp today?"))  
+# temp=int(input("What is the temp today?"))  
 
-if temp >=0 and temp <=30:
-    print("Go outside!")
-elif temp <0:
-    print("It is too cold")
-else: print("It is too hot")
+# if temp >=0 and temp <=30:
+#     print("Go outside!")
+# elif temp <0:
+#     print("It is too cold")
+# else: print("It is too hot")
+
+name = None
+
+while not name:
+    name = input("Enter your name")
+print("Hello " + name)
