@@ -132,12 +132,26 @@
 # print(zastawa.intersection(kuchnia))
 
 
-capitals = {
-    'Poland' : 'Warszawa',
-    'Germany' : 'Berlin'
-}
+# capitals = {
+#     'Poland' : 'Warszawa',
+#     'Germany' : 'Berlin'
+# }
 
-# print(capitals.get('Poland'))
+# # print(capitals.get('Poland'))
 
-for key,values in capitals.items():
-    print(values)
+# for key,values in capitals.items():
+#     print(values)
+
+name = "olga Ka!"
+
+# if (name[0].islower):
+#     name = name.capitalize()
+
+# first = name[:4].upper()
+# second = name[-3:-1].upper()
+# last = name[-1]
+
+# print(name)
+# print(first)
+# print(second)
+# print(last)
