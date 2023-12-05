@@ -142,7 +142,7 @@
 # for key,values in capitals.items():
 #     print(values)
 
-name = "olga Ka!"
+# name = "olga Ka!"
 
 # if (name[0].islower):
 #     name = name.capitalize()
@@ -155,3 +155,34 @@ name = "olga Ka!"
 # print(first)
 # print(second)
 # print(last)
+
+# def hello(name,age):
+#     print("Hello " + name + ". You are " + str(age) + " years old ;(")
+# my_name = 'Olga'
+# my_age = 35
+# hello(my_name, my_age)
+
+# def multiply (num1, num2):
+#     result = num1 * num2
+#     return result
+# print(multiply(2,3))
+
+# num=input("Enter number: ")
+# print(abs(round(float(num))))
+
+# name = "Ola"
+# def names():
+#     name="Olga"
+#     print(name)
+# names()
+# print(name)
+
+
+def summary(*args):
+    sum = 0
+    args = list(args)
+    args[0]=100
+    for i in args:
+        sum += i
+    return sum
+print(summary(1,2,3,))
