@@ -178,11 +178,12 @@
 # print(name)
 
 
-def summary(*args):
-    sum = 0
-    args = list(args)
-    args[0]=100
-    for i in args:
-        sum += i
-    return sum
-print(summary(1,2,3,))
+# def summary(*args):
+#     sum = 0
+#     args = list(args)
+#     args[0]=100
+#     for i in args:
+#         sum += i
+#     return sum
+# print(summary(1,2,3,))
+
