@@ -187,3 +187,40 @@
 #     return sum
 # print(summary(1,2,3,))
 
+# Dane są zmienne a i b przechowujące liczby całkowite. Napisz kod, który wypisze informację, która z tych liczb jest większa.
+
+# a = 7
+# b = 4
+# maxNum = max(a,b)
+# print(maxNum)
+
+# c = 5
+# d = 5
+
+# if c > d:
+#     print(c)
+# elif d > c:
+#     print(d)
+# else:
+#     print(c , 'equals', d)
+
+# import random
+
+# a=5
+# b=100
+# random_num= random.randint(a,b)
+# print(random_num) 
+
+# waga = float(input('Podaj wagę w kg: '))
+# wzrost= float(input('Podaj wzrost w m: '))
+
+# bmi = waga / wzrost**2
+# result = round(bmi,2)
+# print("Twoje BMI to:" , result)
+# if result < 20:
+#     print("Za mało")
+# elif result > 25:
+#     print("Za dużo")
+# else:
+#     print("w sam raz")
+
