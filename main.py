@@ -224,3 +224,46 @@
 # else:
 #     print("w sam raz")
 
+
+# import random
+# lucky = random.randint(0,100)
+# print(lucky)
+# number = int(input("Podaj liczbę całkowitą z przedzialu od 0 do 100: "))
+
+# while number != lucky:
+#     if number > lucky:
+#         print("za duzo")
+#     else:
+#         print("za mało")
+        
+#     print("Sprobuj jeszcze raz")
+#     number = int(input("Podaj liczbę całkowitą z przedzialu od 0 do 100: "))
+# print("Gratulacje")
+
+# from math import sqrt
+
+# a = float(input("Podaj współczynnik a: "))
+# b = float(input("Podaj współczynnik b: "))
+# c = float(input("Podaj współczynnik c: "))
+
+# delta = b ** 2 - 4 * a * c
+
+# if delta > 0:
+#     x1 = (-b - sqrt(delta)) / (2 * a)
+#     x2 = (-b + sqrt(delta)) / (2 * a)
+#     print("x1={:.2f}, x2={:.2f}".format(x1,x2))
+   
+# elif delta == 0:
+#     x = -b / (2 * a)
+#     print("x={:.2f}".format(x))
+    
+# else:
+#     print("To równanie nie ma rozwiązań rzeczywistych")
+
+
+# Zadanie opisuje program, który znajduje i wypisuje liczby doskonałe w przedziale od 1 do 10000. Liczba doskonała to taka liczba naturalna, która jest sumą swoich dzielników właściwych (czyli wszystkich dzielników, z wyłączeniem samej siebie).
+
+for i in range(1, 10000):
+    if i% ===0:
+        i=i+i
+    print(i)
