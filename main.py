@@ -263,7 +263,25 @@
 
 # Zadanie opisuje program, który znajduje i wypisuje liczby doskonałe w przedziale od 1 do 10000. Liczba doskonała to taka liczba naturalna, która jest sumą swoich dzielników właściwych (czyli wszystkich dzielników, z wyłączeniem samej siebie).
 
-for i in range(1, 10000):
-    if i% ===0:
-        i=i+i
-    print(i)
+
+
+
+# Liczby Armstronga (lub liczby narcystyczne) to takie liczby naturalne, które są równy sumie swoich cyfr podniesionych do potęgi liczby cyfr. Na przykład, 153 to liczba Armstronga, ponieważ 1^3 + 5^3 + 3^3 = 153.
+
+# def findArmstrong(start, end):
+#     list=[]
+#     for num in range (start, end +1):
+#         numStr = str(num)
+#         leng = len(numStr)
+#         result = sum(int(digit) ** leng for digit in numStr)
+#         if result == num:
+#             list.append(num)
+#     return list
+
+# print(findArmstrong(1,1000))
+
+
+
+
+# napisz program, który znajduje liczby doskonałe w zadanym zakresie.
+# Liczba doskonała to liczba, która jest równa sumie swoich dzielników właściwych (dzielników, z pominięciem samej liczby). Na przykład, 28 to liczba doskonała, ponieważ 1 + 2 + 4 + 7 + 14 = 28.
