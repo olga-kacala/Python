@@ -285,3 +285,21 @@
 
 # napisz program, który znajduje liczby doskonałe w zadanym zakresie.
 # Liczba doskonała to liczba, która jest równa sumie swoich dzielników właściwych (dzielników, z pominięciem samej liczby). Na przykład, 28 to liczba doskonała, ponieważ 1 + 2 + 4 + 7 + 14 = 28.
+
+
+
+def perfectNum(start, end):
+    result = []
+
+    for num in range(start, end +1):
+        sum = 0
+        for i in range(1, num):
+            if num%i ==0:
+                sum +=i
+        if sum == num:
+            result.append(num)
+    return result
+
+start = 1
+end = 100
+print(perfectNum(start, end))
