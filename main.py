@@ -288,18 +288,82 @@
 
 
 
-def perfectNum(start, end):
-    result = []
+# def perfectNum(start, end):
+#     result = []
 
-    for num in range(start, end +1):
-        sum = 0
-        for i in range(1, num):
-            if num%i ==0:
-                sum +=i
-        if sum == num:
-            result.append(num)
-    return result
+#     for num in range(start, end +1):
+#         sum = 0
+#         for i in range(1, num):
+#             if num%i ==0:
+#                 sum +=i
+#         if sum == num:
+#             result.append(num)
+#     return result
 
-start = 1
-end = 100
-print(perfectNum(start, end))
+# start = 1
+# end = 100
+# print(perfectNum(start, end))
+
+
+# Spróbujmy napisać program w Pythonie, który sprawdzi, czy dana liczba jest liczbą pierwszą. Liczba pierwsza to taka liczba naturalna większa od 1, która ma tylko dwa dzielniki: 1 i samą siebie.
+
+
+
+# def primeNum (start, end):
+#     for num in range(start, end +1):
+#         result = []
+#         if num%num == 1 and num%1 ==num:
+#             result.append(num)
+#     return result
+
+
+# start = 1
+# end = 100
+# print(primeNum(start, end))
+
+
+# Wczytaj ciąg liczb zakończony zerem, którego suma nie
+# przekracza 100 i oblicz ich średnią arytmetyczną
+# sum = 0
+# licznik =0
+# while sum <100:
+#     a= int(input("Podaj liczbę: "))
+#     sum += a
+#     licznik +=1
+#     result = sum/licznik
+# else: 
+#     print("Suma > 100")
+# print("sredni:", result)
+
+# def nd(a, b):
+#     while a != b:
+#         if a > b:
+#             a = a - b
+#         else:
+#             b = b - a
+#     return a
+
+# a = int(input('podaj a: '))
+# b = int(input('podaj b: '))
+# c = nd(a, b)
+
+# print(f'NWD({a}, {b}) = {c}')
+
+# if c == 1:
+#     print('Liczby a, b są względnie pierwsze')
+
+
+
+lista = []
+for n in range(1,10001):
+    suma =0
+   
+    for i in range (1, n):
+        if n%i ==0:
+            suma += i
+    if suma == n:
+        lista.append(n)
+print(lista) 
+
+
+      
